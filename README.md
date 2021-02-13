@@ -1,12 +1,8 @@
 # Next + Netlify Portfolio Starter
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9d73e58f-4104-4db1-93c9-2134a9ffc9e7/deploy-status)](https://app.netlify.com/sites/next-portfolio-starter/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/53c2dca8-c335-4794-90e9-d5a2a4308e5f/deploy-status)](https://app.netlify.com/sites/modest-agnesi-66fe12/deploys)
 
 This is a [Next.js](https://nextjs.org/) v9.5+ project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app) and set up to be instantly deployed to [Netlify](https://url.netlify.com/HJh3LCbjI), using [Netlify Forms](https://url.netlify.app/Sy9bJ38hI) as a backend-less contact form.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-portfolio-starter&utm_source=github&utm_medium=nextportfoliostarter-cs&utm_campaign=devex)
-
-(If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify)
 
 ## Getting Started
 
