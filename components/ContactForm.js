@@ -37,7 +37,7 @@ export default function ContactForm() {
         }
 
         button {
-          padding: 20px;
+          padding: 10px;
           background: black;
           color: white;
           border-radius: 10px;

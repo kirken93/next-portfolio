@@ -1,0 +1,75 @@
+
+$teal: #00a395;
+$navHeight: 50px;
+$footerHeight: 50px;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: $teal;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  width: 100%;
+  height: $navHeight;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+nav a {
+  margin-right: 20px;
+}
+
+footer {
+  width: 100%;
+  height: $footerHeight;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  margin-right: 20px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img.painted-rocks {
+  border-radius: 10%;
+}
+
+.about-content {
+  padding: 20px;
+}
