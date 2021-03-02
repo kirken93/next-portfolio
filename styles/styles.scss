@@ -1,0 +1,115 @@
+
+$background: #000000;
+$surface: #121212;
+$primary: #ffb0c1;
+$secondary: #00c2d9;
+$onBackground: #ffffff;
+$onSurface: #ffffff;
+$onPrimary: #ffffff;
+$onSecondary: #ffffff;
+
+$teal: #00a395;
+$headerHeight: 50px;
+
+body {
+  padding: 0;
+  margin: 20px 200px;
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: $background;
+  color: $onBackground;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  color: $secondary;
+}
+
+::-moz-selection {
+  color: $secondary;
+}
+
+a {
+  color: $secondary;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+header {
+  height: $headerHeight;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+
+  .icon-title {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      display: inline-block;
+      margin: 0;
+      margin-left: 20px;
+      color: $primary;
+    }
+  }
+
+  nav {
+    a {
+      margin-left: 20px;
+      font-size: 20px;
+    }
+  }
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img.painted-rocks {
+  border-radius: 10%;
+}
+
+.about-content {
+  padding: 20px;
+}
+
+.surface {
+  background-color: $surface;
+  color: $onSurface;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary {
+  background-color: $primary;
+  color: $onPrimary;
+}
+
+.secondary {
+  background-color: $secondary;
+  color: $onSecondary;
+}
