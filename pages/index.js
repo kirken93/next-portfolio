@@ -2,7 +2,7 @@ import Card from "@components/Card";
 
 export default function Home() {
   return (
-    <div className="surface">
+    <Card>
       <h2>Welcome!</h2>
       <img
         src="/painted_rocks.jpeg"
@@ -13,6 +13,6 @@ export default function Home() {
       <div className="about-content">
         Hello! My name is Megan Kirkbride and I'm a software engineer.
       </div>
-    </div>
+    </Card>
   );
 }
