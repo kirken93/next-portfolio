@@ -15,7 +15,7 @@ export default function ContactForm() {
         <textarea name="message" id="yourmessage"></textarea>
       </p>
       <p>
-        <button type="submit">Send</button>
+        <button type="submit" className="primary">Send</button>
       </p>
       <style jsx>{`
         label {
@@ -34,14 +34,6 @@ export default function ContactForm() {
         input:focus,
         textarea:focus {
           outline: 1px dotted #d6d6d6;
-        }
-
-        button {
-          padding: 10px;
-          background: black;
-          color: white;
-          border-radius: 10px;
-          font-size: 1.3rem;
         }
       `}</style>
     </form>
