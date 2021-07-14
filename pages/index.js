@@ -1,8 +1,8 @@
-import Head from 'next/head'
+import Head from "next/head";
 
-import Nav from '@components/Nav'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Nav from "@components/Nav";
+import Header from "@components/Header";
+import Footer from "@components/Footer";
 
 export default function Home() {
   return (
@@ -15,19 +15,16 @@ export default function Home() {
 
       <main>
         <Header text="Megan Kirkbride" />
-        <img src="/painted_rocks.jpeg"
-             className="painted-rocks"
-             alt="Megan at the painted rocks"
-             height="400" />
-        <div className="about-content">
-          Hello! My name is Megan Kirkbride and I'm a software
-          engineer who enjoys working with React. I've been working
-          as a full-stack developer at <a href="https://bloomerang.co/" target="_blank">Bloomerang</a> since 2015.
-        </div>
+        <img
+          src="/painted_rocks.jpeg"
+          className="painted-rocks"
+          alt="Megan at the painted rocks"
+          height="400"
+        />
+        <div className="about-content">Hello! My name is Megan Kirkbride</div>
       </main>
 
       <Footer />
-
     </div>
-  )
+  );
 }
