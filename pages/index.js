@@ -21,7 +21,7 @@ export default function Home() {
           alt="Megan at the painted rocks"
           height="400"
         />
-        <div className="about-content">Hello! My name is Megan Kirkbride</div>
+        <div className="about-content">Hello! My name is Megan</div>
       </main>
 
       <Footer />
